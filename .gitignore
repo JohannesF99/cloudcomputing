@@ -35,6 +35,8 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### Other ###
 /resources/.aws/config
 /resources/.aws/credentials
 /resources/.aws/new_user_credentials.csv
