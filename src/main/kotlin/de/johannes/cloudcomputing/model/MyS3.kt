@@ -78,7 +78,7 @@ class MyS3(
      */
     private fun createTag() {
         val bucketTaggingConfiguration = BucketTaggingConfiguration()
-            .withTagSets(TagSet(mapOf(Pair("DHGE", "FranJo.PI20"))))
+            .withTagSets(TagSet(mapOf(Pair(tag.key, tag.value))))
         val setBucketTaggingConfigurationRequest = SetBucketTaggingConfigurationRequest(bucketName, bucketTaggingConfiguration)
         try {
             client.setBucketTaggingConfiguration(setBucketTaggingConfigurationRequest)
