@@ -31,6 +31,11 @@ Nach der Initialisierung der EC2-Instanzen ist keine sofortige Verbindung über 
 **Lösung:** <br>
 Sleep oder Timeout von ca. 10s ist ausreichend Zeit für die EC2-Instanz.
 3. **Problem:** <br>
-A<br>
+Bei der Benutzung von SSH/SCP mit einer unbekannten IP-Adresse wird ein Host-Check durchgeführt, wodurch eine
+Nutzereingabe im Terminal nötig wird.<br>
 **Lösung:** <br>
-B<br>
+Um dies zu unterdrücken, die Option `-o StrictHostKeyChecking=no` hinzufügen.<br>
+4. **Problem:** <br>
+Bei der Benutzung von JSch als Java SSH Client gibt es verschiedene Channel-Typen, jedoch nicht alle eignen sich zum Senden von Befehlen.<br>
+**Lösung:** <br>
+Verwende als Channel-Typ *shell*, siehe [hier](http://www.jcraft.com/jsch//examples/Shell.java.html).<br>
