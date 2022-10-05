@@ -20,7 +20,7 @@ Um das Programm auszuführen, wird folgender Befehl benutzt:<br>
 3. `cloudcomputing-0.1.0.jar` = Angabe der Programmdatei
 4. `.resources/programm.sh` = Der Pfad zu dem Simulationsprogramm, welches in AWS ausgeführt werden soll. Dort muss der Nutzer sein Programm angeben
 
-### 3) Aufgetretene Probleme
+## 3) Aufgetretene Probleme
 
 1. **Problem:** <br>
 Java SDK an sich sehr gut, jedoch nur um Ressourcen zu verwalten, zu erstellen oder zu löschen. Eine einfache, direkte Verbindung ist nicht verfügbar.<br>
