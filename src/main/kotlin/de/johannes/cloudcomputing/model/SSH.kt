@@ -1,4 +1,4 @@
-package model
+package de.johannes.cloudcomputing.model
 
 import com.jcraft.jsch.ChannelShell
 import com.jcraft.jsch.JSch

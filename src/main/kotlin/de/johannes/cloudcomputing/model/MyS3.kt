@@ -1,4 +1,4 @@
-package model
+package de.johannes.cloudcomputing.model
 
 import com.amazonaws.services.ec2.model.Tag
 import com.amazonaws.services.s3.AmazonS3ClientBuilder
@@ -36,7 +36,7 @@ class MyS3(
     init {
         createBucket()
         createTag()
-        uploadObject(s3Object.component1(), s3Object.component2())
+        uploadObject(s3Object.key, s3Object.file)
     }
 
     /**

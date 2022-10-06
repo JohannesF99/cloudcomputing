@@ -1,9 +1,9 @@
 package de.johannes.cloudcomputing
 
-import model.MyEC2
-import model.MyS3
-import model.S3ObjectBuilder
-import model.SSH
+import de.johannes.cloudcomputing.model.MyEC2
+import de.johannes.cloudcomputing.model.MyS3
+import de.johannes.cloudcomputing.model.S3ObjectBuilder
+import de.johannes.cloudcomputing.model.SSH
 import org.springframework.boot.CommandLineRunner
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication

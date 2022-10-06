@@ -1,6 +1,6 @@
-package model
+package de.johannes.cloudcomputing.model
 
-import model.S3ObjectBuilder.S3Object
+import de.johannes.cloudcomputing.model.S3ObjectBuilder.S3Object
 import java.io.File
 import java.io.FileNotFoundException
 
