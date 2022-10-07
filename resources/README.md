@@ -8,7 +8,9 @@
 Entwickelt wurde es jedoch unter Linux, daher wird die Funktionalität nur dafür garantiert.
 - Es wird S3 und EC2 von Amazon verwendet.<br>
 Auch wenn S3 nicht unbedingt nötig ist (siehe [scp](https://de.wikipedia.org/wiki/Secure_Copy)), wird es hier aus Übungsgründen trotzdem verwendet.
-
+- Damit das Programm funktioniert, wird eine AWS Konfiguration benötigt. Die dazugehörigen Credentials müssen sich in dem Ordner `~/.aws` im Nutzerverzeichnis befinden.<br>
+Eben dieser Ordner muss vorher auch in den `resources` Ordner dieser Anwendung kopiert werden, z.B. mit folgendem Befehl (wenn ausgeführt im Anwendungsverzeichnis):<br>
+`cp -r ~/.aws .`
 ---
 ## 2) Programm ausführen
 Um das Programm auszuführen, wird folgender Befehl benutzt:<br>
